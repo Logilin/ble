@@ -1,8 +1,8 @@
 # IP address of the target
-ipaddr=192.168.12.210
+ipaddr=192.168.##.##
 
 # IP address of the TFTP server 
-serverip=192.168.12.200
+serverip=192.168.##.##
 
 # Filename (on the TFTP server)
 bootfile=uImage-rpi
@@ -11,4 +11,4 @@ bootfile=uImage-rpi
 loadaddr=20000
 
 # Linux kernel command line
-bootargs='dma.dmachans=0x7f35 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bmc2708.boardrev=0x4 bcm2708_serial=0x22849ed sdhci-bcm2708.emmc_clock_freq=100000000 vc_mem.mem_base=0x8000000 vc_mem.mem_size=0x10000000 dwc_otg.lpm_enable=0 console=ttyAMA0,115200n8'
+bootargs='dma.dmachans=0x7f35 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bmc2708.boardrev=0x4 bcm2708_serial=0x22849ed sdhci-bcm2708.emmc_clock_freq=100000000 vc_mem.mem_base=0x8000000 vc_mem.mem_size=0x10000000 dwc_otg.lpm_enable=0 console=ttyAMA0,115200n8 rootwait root=/dev/mmcblk0p2'
