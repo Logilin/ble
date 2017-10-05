@@ -8,7 +8,7 @@
 
 
 #define LG_BUFFER 64
-#define GPIO_LED  16
+#define GPIO_LED  35
 
 int main(void)
 {
@@ -17,8 +17,7 @@ int main(void)
 	int fd;
 	char buffer[LG_BUFFER];
 
-	// Retirer le module leds_gpio.ko s'il est charge
-	system("rmmod leds_gpioi 2> /dev/null");
+	system("echo soc:leds >  /sys/class/leds/led0/device/driver/unbind");
 	
 	// Exporter la GPIO de la LED dans /sys
 	fd = open("/sys/class/gpio/export", O_WRONLY);
