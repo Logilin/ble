@@ -1,10 +1,10 @@
+CFLAGS+=-Wall -g
 
+ifeq ($(CC),cc)
 
-CFLAGS += -Wall -g
-
-CROSS_COMPILE ?=
-
-CC ?= $(CROSS_COMPILE)gcc
+	CROSS_COMPILE ?=
+	CC = $(CROSS_COMPILE)gcc
+endif
 
 .PHONY: all
 all: hello
@@ -12,7 +12,6 @@ all: hello
 hello: hello.c
 	${CC} ${CFLAGS} hello.c -o hello 
 
+.PHONY: clean
 clean: 
 	rm -f hello
-
-
