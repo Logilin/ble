@@ -1,12 +1,12 @@
 ble
 ===
-(c) Christophe BLAESS 2005-2017
+(c) Christophe BLAESS 2005-2020
 
 Exemples de notre cours "BSP Linux Embarqué"
 
-Pour tout renseignement voir http://www.logilin.fr
+Pour tout renseignement voir https://www.logilin.fr
 
-Version à jour sur http://www.github.com/Logilin/ble
+Version à jour sur https://github.com/Logilin/ble
 
 * `chapitre-01` : Linux embarqué : présentation, spécificités, architectures ;
 * `chapitre-02` : Construire un BSP avec Buildroot : système standard, exploration, personnalisation ;
