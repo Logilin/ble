@@ -6,7 +6,7 @@
 
   Exemples de la formation "BSP Linux Embarqué"
 
-  (c) 2005-2014 Christophe Blaess
+  (c) 2005-2020 Christophe Blaess
   http://www.blaess.fr/christophe/
 
 \************************************************************************/
@@ -16,9 +16,9 @@
 static int __init solution_01_init (void)
 {
 	printk(KERN_INFO "%s: Hello...\n", THIS_MODULE->name);
-	return 0; 
+	return 0;
 }
- 
+
 static void __exit solution_01_exit (void)
 {
 	printk(KERN_INFO "%s: Bye!\n", THIS_MODULE->name);

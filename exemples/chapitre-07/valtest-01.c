@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	}
 
 	strcpy(buffer, argv[1]);
-	
+
 	fprintf(stdout, "---> %s\n", buffer);
 
 	free(buffer);

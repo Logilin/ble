@@ -5,7 +5,7 @@
 
   Exemples de la formation "BSP Linux Embarqué"
 
-  (c) 2005-2014 Christophe Blaess
+  (c) 2005-2020 Christophe Blaess
   http://www.blaess.fr/christophe/
 
 \************************************************************************/
@@ -45,7 +45,7 @@ static int __init exemple_init (void)
 	if ((err = gpio_request(RPI_GPIO_LED,THIS_MODULE->name)) != 0) {
 		return err;
 	}
-	
+
 	if ((err = gpio_direction_output(RPI_GPIO_LED,1)) != 0) {
 		gpio_free(RPI_GPIO_LED);
 		return err;
@@ -53,7 +53,7 @@ static int __init exemple_init (void)
 	if ((err = misc_register(& exemple_misc_driver)) != 0) {
 		gpio_free(RPI_GPIO_LED);
 		return err;
-	}		
+	}
 	return 0;
 }
 

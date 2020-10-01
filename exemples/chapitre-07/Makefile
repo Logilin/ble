@@ -10,8 +10,8 @@ endif
 all: hello
 
 hello: hello.c
-	${CC} ${CFLAGS} hello.c -o hello 
+	${CC} ${CFLAGS} hello.c -o hello
 
 .PHONY: clean
-clean: 
+clean:
 	rm -f hello

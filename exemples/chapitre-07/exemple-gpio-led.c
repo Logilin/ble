@@ -18,7 +18,7 @@ int main(void)
 	char buffer[LG_BUFFER];
 
 	system("echo soc:leds >  /sys/class/leds/led0/device/driver/unbind");
-	
+
 	// Exporter la GPIO de la LED dans /sys
 	fd = open("/sys/class/gpio/export", O_WRONLY);
 	if (fd < 0) {
