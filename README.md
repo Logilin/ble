@@ -1,6 +1,6 @@
 ble
 ===
-(c) Christophe BLAESS 2005-2020
+(c) Christophe BLAESS 2005-2021
 
 Exemples de notre cours "BSP Linux Embarqué"
 
