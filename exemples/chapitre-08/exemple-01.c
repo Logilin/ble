@@ -6,7 +6,7 @@
 
   Exemples de la formation "BSP Linux Embarqué"
 
-  (c) 2005-2020 Christophe Blaess
+  (c) 2005-2021 Christophe Blaess
   http://www.blaess.fr/christophe/
 
 \************************************************************************/

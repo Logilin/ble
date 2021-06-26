@@ -1,10 +1,10 @@
-ble
-===
-(c) Christophe BLAESS 2005-2021
+# BLE - "Embedded Linux BSP" Training Course.
+
+Christophe BLAESS 2005-2021
 
 Exemples de notre cours "BSP Linux Embarqué"
 
-Pour tout renseignement voir https://www.logilin.fr
+Pour tout renseignement voir : https://www.logilin.fr
 
 Version à jour sur https://github.com/Logilin/ble
 
