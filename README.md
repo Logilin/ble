@@ -1,6 +1,6 @@
 # BLE - "Embedded Linux BSP" Training Course.
 
-Christophe BLAESS 2005-2021
+Christophe BLAESS 2005-2022
 
 Exemples de notre cours "BSP Linux Embarqué"
 
